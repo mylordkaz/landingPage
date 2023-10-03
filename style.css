@@ -2,6 +2,7 @@ body{
     font-family: 'Architects Daughter', cursive;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 header{
     background-color: #1f2937;
@@ -76,19 +77,27 @@ first{
 }
 .container{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    text-align: center;
+    margin: 10px;
+    }
+
 #photo{
     border-radius: 8px;
     border: 2px solid #3882f6;
     object-fit: cover;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
+}
+.descrip{
+    width: 150px;
 }
 second{
     text-align: center;
